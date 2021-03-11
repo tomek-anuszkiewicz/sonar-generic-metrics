@@ -116,12 +116,9 @@
         <version>3.0</version>
         <configuration>
            <header>src/main/resources/header.txt</header>
-           <excludes>
-             <exclude>**/LICENSE</exclude>
-             <exclude>**/*.xml</exclude>
-             <exclude>**/*.properties</exclude>
-             <exclude>**/appveyor.yml</exclude>
-           </excludes>
+           <includes>
+             <include>src/**</include>
+           </includes>
         </configuration>
         <executions>
           <execution>
